@@ -87,7 +87,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 <div align="center">
-  <a href="https://github.com/XinHuiUCD/dublinBus">
+  <a href="https://github.com/21chubaka/Dublin_Bus_App">
     <img src="https://github.com/XinHuiUCD/dublinBus/blob/main/README_imgs/Journey_Planner.gif" alt="Journey_Planner">
   </a>
 </div>
@@ -125,7 +125,7 @@ This is an example of how to list things you need to use the software and how to
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/XinHuiUCD/dublinBus.git
+   git clone https://github.com/XinHuiUCD/dublinBus.git 
    ```
 2. cd into the cloned directory
    ```sh
@@ -165,7 +165,7 @@ This is an example of how to list things you need to use the software and how to
 <div>
   <p>Enter the destination you want to go to, click the Submit button, and our app will show you the time predicted by our model, the different bus routes, and the fare required.</p>
   <h3>Make sure to click the marker icon after entering your address!<h3>
-  <a href="https://github.com/XinHuiUCD/dublinBus">
+  <a href="https://github.com/21chubaka/Dublin_Bus_App">
     <img src="https://github.com/XinHuiUCD/dublinBus/blob/main/README_imgs/Journey_Planner.png">
   </a>
 </div>
@@ -173,7 +173,7 @@ This is an example of how to list things you need to use the software and how to
 ### Fare-Calculation
 <div>
   <p>Users can view their fare by clicking on the Fare button. This is calculated by the distance of the journey. All potential fare are displayed so the user does not have specify their age. </p>
-  <a href="https://github.com/XinHuiUCD/dublinBus">
+  <a href="https://github.com/21chubaka/Dublin_Bus_App">
     <img src="https://github.com/XinHuiUCD/dublinBus/blob/main/README_imgs/fare_calculation.png">
   </a>
 </div>
@@ -181,7 +181,7 @@ This is an example of how to list things you need to use the software and how to
 ### Route-Information
 <div>
   <p>The route information feature allows users to search for the bus routes they want to view. Also, users can add their favorite routes to their favorites for future viewing.</p>
-  <a href="https://github.com/XinHuiUCD/dublinBus">
+  <a href="https://github.com/21chubaka/Dublin_Bus_App">
     <img src="https://github.com/XinHuiUCD/dublinBus/blob/main/README_imgs/Route_Info.png">
   </a>
 </div>
@@ -189,7 +189,7 @@ This is an example of how to list things you need to use the software and how to
 ### Real-Time-Information
 <div>
   <p>The user can select a bus stop on the map and view the expected arrivals of buses for that particular stop. </p>
-  <a href="https://github.com/XinHuiUCD/dublinBus">
+  <a href="https://github.com/21chubaka/Dublin_Bus_App">
     <img src="https://github.com/XinHuiUCD/dublinBus/blob/main/README_imgs/RealtimeInfo.png">
   </a>
 </div>
@@ -197,7 +197,7 @@ This is an example of how to list things you need to use the software and how to
 ### Weather-Information
 <div>
   <p>The weather feature allows users to view the current weather in Dublin, tomorrow's weather and weather information for three days from now. This information includes temperature, feels like temperature and weather description information.</p>
-    <a href="https://github.com/XinHuiUCD/dublinBus">
+    <a href="https://github.com/21chubaka/Dublin_Bus_App">
       <img src="https://github.com/XinHuiUCD/dublinBus/blob/main/README_imgs/current_weather.png">
       <img src="https://github.com/XinHuiUCD/dublinBus/blob/main/README_imgs/tomorrow_weather.png">
       <img src="https://github.com/XinHuiUCD/dublinBus/blob/main/README_imgs/future_weather.png">
@@ -207,7 +207,7 @@ This is an example of how to list things you need to use the software and how to
 ### Twitter
 <div>
   <p>The Twitter feature allows users to view the latest tweets from Dublin Bus, so that users can easily can view new information and alerts from Dublin Bus that our models cannot predict.</p>
-  <a href="https://github.com/XinHuiUCD/dublinBus">
+  <a href="https://github.com/21chubaka/Dublin_Bus_App">
     <img src="https://github.com/XinHuiUCD/dublinBus/blob/main/README_imgs/Twitter.png">
   </a>
 </div>
@@ -215,7 +215,7 @@ This is an example of how to list things you need to use the software and how to
 ### Register-and-Login
 <div>
   <p>The Register and Login features allow users to create their own account and display their username on the page. Users' information is stored in the database and verified with JWT-Authorization. In addition, all functions are not affected if users do not login, there are no restrictions.</p>
-  <a href="https://github.com/XinHuiUCD/dublinBus">
+  <a href="https://github.com/21chubaka/Dublin_Bus_App">
     <img src="https://github.com/XinHuiUCD/dublinBus/blob/main/README_imgs/Register.png">
     <img src="https://github.com/XinHuiUCD/dublinBus/blob/main/README_imgs/Login.png">
     <img src="https://github.com/XinHuiUCD/dublinBus/blob/main/README_imgs/login_completed.png">
@@ -225,7 +225,7 @@ This is an example of how to list things you need to use the software and how to
 ### Dark-Mode
 <div>
   <p>The main purpose of setting the dark mode function is to facilitate users to use the product at night. In addition, the dark mode will also have a certain protective effect on people's eyes, which is good for users.</p>
-  <a href="https://github.com/XinHuiUCD/dublinBus">
+  <a href="https://github.com/21chubaka/Dublin_Bus_App">
     <img src="https://github.com/XinHuiUCD/dublinBus/blob/main/README_imgs/Dark_mode.png">
   </a>
 </div>
@@ -233,7 +233,7 @@ This is an example of how to list things you need to use the software and how to
 ### Mobile-Optimization
 <div>
   <p>Our App is also optimized for mobile, so users can use the product perfectly on mobile as well.Everything in the navigation bar is placed in one button, and when users click on the button, they can view all the functions.</p>
-  <a href="https://github.com/XinHuiUCD/dublinBus">
+  <a href="https://github.com/21chubaka/Dublin_Bus_App">
     <img src="https://github.com/XinHuiUCD/dublinBus/blob/main/README_imgs/mobile1.png" width="32%">
     <img src="https://github.com/XinHuiUCD/dublinBus/blob/main/README_imgs/mobile2.png" width="32%">
     <img src="https://github.com/XinHuiUCD/dublinBus/blob/main/README_imgs/mobile3.png" width="32%">
@@ -273,13 +273,13 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <!-- CONTACT -->
 ## Contact
-[Gus Boothman - Front-end](https://github.com/Gus1616)
+[Gus Boothman](https://github.com/Gus1616)
 <br/>
-[Will O’Donohoe - Data Analytic](https://github.com/21chubaka)
+[Will O’Donohoe](https://github.com/21chubaka)
 <br/>
-[Cheng Zhang - Front-end](https://github.com/20211342)
+[Cheng Zhang](https://github.com/20211342)
 <br/>
-[Xinhui Jiang - Back-end](https://github.com/XinHuiUCD)
+[Xinhui Jiang](https://github.com/XinHuiUCD)
 
 Project Link: [https://github.com/XinHuiUCD/dublinBus](https://github.com/XinHuiUCD/dublinBus)
 
