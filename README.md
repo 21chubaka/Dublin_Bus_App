@@ -24,11 +24,11 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/XinHuiUCD/dublinBus">
-    <img src="https://github.com/XinHuiUCD/dublinBus/blob/main/dbus/src/assets/Dublin-Bus-logo.png" alt="Logo" width="320" height="160">
+  <a href="https://github.com/21chubaka/Dublin_Bus_App">
+    <img src="https://github.com/21chubaka/Dublin_Bus_App/blob/main/dbus/src/assets/Dublin-Bus-logo.png" alt="Logo" width="320" height="160">
   </a>
 
-<h3 align="center">Team 10</h3>
+<h3 align="center">Dublin Bus App</h3>
 
   <p align="center">
     Dublin Bus
