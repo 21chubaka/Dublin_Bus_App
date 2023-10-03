@@ -38,9 +38,9 @@
     <br />
     <a href="http://ipa-011.ucd.ie/">View Live Project</a>
     ·
-    <a href="https://github.com/XinHuiUCD/dublinBus/issues">Report Bug</a>
+    <a href="https://github.com/21chubaka/dublinBus/issues">Report Bug</a>
     ·
-    <a href="https://github.com/XinHuiUCD/dublinBus/issues">Request Feature</a>
+    <a href="https://github.com/21chubaka/dublinBus/issues">Request Feature</a>
   </p>
 </div>
 
