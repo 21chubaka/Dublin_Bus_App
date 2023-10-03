@@ -281,7 +281,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <br/>
 [Xinhui Jiang](https://github.com/XinHuiUCD)
 
-Project Link: [https://github.com/XinHuiUCD/dublinBus](https://github.com/XinHuiUCD/dublinBus)
+[Original Project Link](https://github.com/XinHuiUCD/dublinBus)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
