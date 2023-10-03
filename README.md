@@ -29,7 +29,7 @@
   </a>
 
 <h3 align="center">Dublin Bus App</h3>
-
+<!--
   <p align="center">
     Dublin Bus
     <br />
@@ -42,6 +42,7 @@
     ·
     <a href="https://github.com/21chubaka/dublinBus/issues">Request Feature</a>
   </p>
+-->
 </div>
 
 
