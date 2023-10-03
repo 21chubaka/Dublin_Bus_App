@@ -53,7 +53,7 @@ Full Stack Software App Development Group Project
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">Introduction</a>
+      <a href="#introduction">Introduction</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -87,7 +87,7 @@ Full Stack Software App Development Group Project
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## Introduction
 <div align="center">
   <a href="https://github.com/21chubaka/Dublin_Bus_App">
     <img src="https://github.com/XinHuiUCD/dublinBus/blob/main/README_imgs/Journey_Planner.gif" alt="Journey_Planner">
