@@ -240,7 +240,29 @@ This is an example of how to list things you need to use the software and how to
 </div>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Technical Approach
 
+### Architecture & Tech Stack
+
+### Front End
+
+### Back End
+
+### Communication between Front End & Back End
+
+### Deployment
+
+### Data Analysis & Data Management
+
+## Testing & Evaluation
+
+### Front End
+
+### Back End
+
+### User Testing
+
+### Data Analysis
 
 <!-- CONTRIBUTING 
 ## Contributing
