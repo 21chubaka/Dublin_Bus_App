@@ -253,10 +253,13 @@ In addition, all functions are not affected if users do not login - there are no
 </div>
 
 ### Dark-Mode
+The main purpose of dark mode is to facilitate use of the application at night. An added benefit
+to the user is that dark mode has been found to have certain protective effects on people’s eyes
+[5].
+
 <div>
-  <p>The main purpose of setting the dark mode function is to facilitate users to use the product at night. In addition, the dark mode will also have a certain protective effect on people's eyes, which is good for users.</p>
   <a href="https://github.com/21chubaka/Dublin_Bus_App">
-    <img src="https://github.com/XinHuiUCD/dublinBus/blob/main/README_imgs/Dark_mode.png">
+    <img src="/README_imgs/Dark_mode.png">
   </a>
 </div>
 
@@ -340,6 +343,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## References
+[5] Henriette Eisfeld and Felix Kristallovich. The rise of dark mode: A qualitative study of an
+emerging user interface design trend, 2020.
 
 
 
