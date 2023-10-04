@@ -207,12 +207,25 @@ The user can select a bus stop on the map and view the expected arrivals of buse
 </div>
 
 ### Weather Information
+he weather feature allows users to view the current weather in Dublin, tomorrow's weather and weather information for three days from now. This information includes temperature, feels like temperature and weather description information.<br>
+<b>Current Weather</b>
 <div>
-  <p>The weather feature allows users to view the current weather in Dublin, tomorrow's weather and weather information for three days from now. This information includes temperature, feels like temperature and weather description information.</p>
     <a href="https://github.com/21chubaka/Dublin_Bus_App">
-      <img src="https://github.com/XinHuiUCD/dublinBus/blob/main/README_imgs/current_weather.png">
-      <img src="https://github.com/XinHuiUCD/dublinBus/blob/main/README_imgs/tomorrow_weather.png">
-      <img src="https://github.com/XinHuiUCD/dublinBus/blob/main/README_imgs/future_weather.png">
+      <img src="/README_imgs/current_weather.png">
+    </a>
+</div>
+
+<b>Tomorrow's Weather</b>
+<div>
+    <a href="https://github.com/21chubaka/Dublin_Bus_App">
+      <img src="/README_imgs/tomorrow_weather.png">
+    </a>
+</div>
+
+<b>Future Weather</b>
+<div>
+    <a href="https://github.com/21chubaka/Dublin_Bus_App">
+      <img src="/README_imgs/future_weather.png">
     </a>
 </div>
 
