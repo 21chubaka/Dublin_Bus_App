@@ -95,7 +95,7 @@ Below is a short demo of the application:
 
 <div align="center">
   <a href="https://github.com/21chubaka/Dublin_Bus_App">
-    <img src="https://github.com/XinHuiUCD/dublinBus/blob/main/README_imgs/Journey_Planner.gif" alt="Journey_Planner">
+    <img src="/README_imgs/Journey_Planner.gif" alt="Journey_Planner">
   </a>
 </div>
   <h3>Make sure to click the marker icon after entering your address!<h3>
