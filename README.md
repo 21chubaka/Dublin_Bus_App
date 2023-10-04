@@ -230,10 +230,12 @@ he weather feature allows users to view the current weather in Dublin, tomorrow'
 </div>
 
 ### Twitter
+The Twitter feature allows users to view the latest tweets from Dublin Bus, so they can easily
+view new information and alerts from Dublin Bus.
+
 <div>
-  <p>The Twitter feature allows users to view the latest tweets from Dublin Bus, so that users can easily can view new information and alerts from Dublin Bus that our models cannot predict.</p>
   <a href="https://github.com/21chubaka/Dublin_Bus_App">
-    <img src="https://github.com/XinHuiUCD/dublinBus/blob/main/README_imgs/Twitter.png">
+    <img src="/README_imgs/Twitter.png">
   </a>
 </div>
 
