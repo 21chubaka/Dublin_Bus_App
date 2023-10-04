@@ -240,12 +240,15 @@ view new information and alerts from Dublin Bus.
 </div>
 
 ### Register and Login
+The Register and Login features allow users to create their own account and display their username
+on the page. Users’ information is stored in the database and verified with JWT-Authorization.
+In addition, all functions are not affected if users do not login - there are no restrictions.
+
 <div>
-  <p>The Register and Login features allow users to create their own account and display their username on the page. Users' information is stored in the database and verified with JWT-Authorization. In addition, all functions are not affected if users do not login, there are no restrictions.</p>
   <a href="https://github.com/21chubaka/Dublin_Bus_App">
-    <img src="https://github.com/XinHuiUCD/dublinBus/blob/main/README_imgs/Register.png">
-    <img src="https://github.com/XinHuiUCD/dublinBus/blob/main/README_imgs/Login.png">
-    <img src="https://github.com/XinHuiUCD/dublinBus/blob/main/README_imgs/login_completed.png">
+    <img src="/README_imgs/Register.png">
+    <img src="/README_imgs/Login.png">
+    <img src="/README_imgs/login_completed.png">
   </a>
 </div>
 
