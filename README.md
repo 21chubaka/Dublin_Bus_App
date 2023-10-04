@@ -87,6 +87,11 @@ Full Stack Software App Development Group Project
 
 
 ## Introduction
+This project is a mobile optimised web application for Dublin's bus system.  The application
+is designed to allow users to efficiently search for bus routes to their destination.  The 
+application provides accurate estimates of the travel time for a bus route to the user.  These
+predictions are generated from Random Forest models built for the application.
+
 <div align="center">
   <a href="https://github.com/21chubaka/Dublin_Bus_App">
     <img src="https://github.com/XinHuiUCD/dublinBus/blob/main/README_imgs/Journey_Planner.gif" alt="Journey_Planner">
