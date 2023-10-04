@@ -279,6 +279,9 @@ can be viewed when users click on the button.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Technical Approach
+This section discusses the approaches used for the architecture of the system and the technical stack, 
+the front end, the back end, client and server communication, deployment of the application, data 
+analysis and management, and some justifications for these approaches.
 
 ### Architecture & Tech Stack
 
