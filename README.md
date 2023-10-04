@@ -189,10 +189,11 @@ specify their age or whether they have a leapcard.
 </div>
 
 ### Route Information
+The route information feature allows users to search for the bus routes they want to view. Also, users can add their favorite routes to their favorites for future viewing and use.
+
 <div>
-  <p>The route information feature allows users to search for the bus routes they want to view. Also, users can add their favorite routes to their favorites for future viewing.</p>
   <a href="https://github.com/21chubaka/Dublin_Bus_App">
-    <img src="https://github.com/XinHuiUCD/dublinBus/blob/main/README_imgs/Route_Info.png">
+    <img src="/README_imgs/Route_Info.png">
   </a>
 </div>
 
