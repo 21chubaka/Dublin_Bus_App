@@ -131,7 +131,7 @@ This is an example of how to list things you need to use the software and how to
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/XinHuiUCD/dublinBus.git 
+   git clone https://github.com/21chubaka/dublinBus.git 
    ```
 2. cd into the cloned directory
    ```sh
