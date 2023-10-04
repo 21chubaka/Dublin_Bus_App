@@ -197,11 +197,12 @@ The route information feature allows users to search for the bus routes they wan
   </a>
 </div>
 
-### Real-Time Information
+### Real Time Information
+The user can select a bus stop on the map and view the expected arrivals of buses for that particular stop.
+
 <div>
-  <p>The user can select a bus stop on the map and view the expected arrivals of buses for that particular stop. </p>
   <a href="https://github.com/21chubaka/Dublin_Bus_App">
-    <img src="https://github.com/XinHuiUCD/dublinBus/blob/main/README_imgs/RealtimeInfo.png">
+    <img src="/README_imgs/RealtimeInfo.png">
   </a>
 </div>
 
