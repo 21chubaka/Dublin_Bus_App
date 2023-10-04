@@ -286,7 +286,11 @@ can be viewed when users click on the button.
 
 ### Back End
 
-### Communication between Front End & Back End
+### Client & Server Communication
+Passing data between the two frameworks (client and server), was acomplished by creating a
+RESTful Framework API (Django) on the back end and using HTTP methods POST and GET requests to call 
+these APIs on the front end. AJAX and the Fetch API were used on the front end to access the requests 
+and response that were made on the back end. Some setting up was done to solve the Cross-Origin problem.
 
 ### Deployment
 
