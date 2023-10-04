@@ -166,7 +166,7 @@ To get a local copy up and running follow these simple example steps.
 ## Features
 
 ### Journey Planner
-Journey Planner allows the user to plan their trip entering their starting and ending locations in the search box, 
+Journey Planner allows the user to plan their trip by entering their starting and ending locations in the search box, 
 or using their current location. Once locations are entered the user can click the Submit button and the route will
 appear in the map, a fare calculation will appear in the lower right of their screen, and our model will return the 
 predicted travel time above the map.
@@ -178,10 +178,13 @@ predicted travel time above the map.
 </div>
 
 ### Fare Calculation
+As mentioned above, users can view their fare by clicking on the Fare button. This is calculated by the
+distance of the journey. All potential fare categories are displayed so the user does not have to
+specify their age or whether they have a leapcard.
+
 <div>
-  <p>Users can view their fare by clicking on the Fare button. This is calculated by the distance of the journey. All potential fare are displayed so the user does not have specify their age. </p>
   <a href="https://github.com/21chubaka/Dublin_Bus_App">
-    <img src="https://github.com/XinHuiUCD/dublinBus/blob/main/README_imgs/fare_calculation.png">
+    <img src="/README_imgs/fare_calculation.png">
   </a>
 </div>
 
