@@ -299,14 +299,16 @@ and response that were made on the back end. Some setting up was done to solve t
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Testing & Evaluation
+Below is an overview of the testing carried out for the front end, back end, and data analysis, as well as 
+the user review surveys.
 
 ### Front End
 
 ### Back End
 
-### User Testing
-
 ### Data Analysis
+
+### User Testing
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
