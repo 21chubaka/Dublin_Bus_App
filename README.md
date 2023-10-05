@@ -485,7 +485,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 
 <!-- CONTACT -->
-## Colleagues
+## Team Members
 [Gus Boothman](https://github.com/Gus1616)
 <br/>
 [Will O’Donohoe](https://github.com/21chubaka)
