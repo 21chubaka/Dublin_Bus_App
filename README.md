@@ -117,7 +117,6 @@ Below is a short demo of the application:
     <img src="/media/Journey_Planner.gif" alt="Journey_Planner">
   </a>
 </div>
-  <h3>Make sure to click the marker icon after entering your address!<h3>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
