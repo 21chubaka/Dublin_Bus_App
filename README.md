@@ -82,18 +82,24 @@ Full Stack Software App Development Group Project
     <li><a href="#technical-approach">Technical Approach</a>
       <ul>
         <li><a href="#architecture-&-tech-stack">Architecture & Tech Stack</a></li>
-        <li><a href="#fare-calculation">Fare Calculation</a></li>
-        <li><a href="#route-information">Route Information</a></li>
-        <li><a href="#real-time-information">Real Time Information</a></li>
-        <li><a href="#weather-information">Weather Information</a></li>
-        <li><a href="#twitter">Twitter</a></li>
-        <li><a href="#register-and-login">Register & Login</a></li>
-        <li><a href="#dark-mode">Dark Mode</a></li>
-        <li><a href="#mobile-optimization">Mobile Optimization</a></li>
+        <li><a href="#front-end">Front End</a></li>
+        <li><a href="#back-end">Back End</a></li>
+        <li><a href="#client---server-communication">Client & Server Communication</a></li>
+        <li><a href="#deployment">Deployment</a></li>
+        <li><a href="#data-analysis---data-management">Data Analysis & Data Management</a></li>
       </ul>
     </li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="#testing---evaluation">Testing & Evaluation</a>
+      <ul>
+        <li><a href="#front-end">Front End</a></li>
+        <li><a href="#back-end">Back End</a></li>
+        <li><a href="#data-analysis">Data Analysis</a></li>
+        <li><a href="#user-testing">User Testing</a></li>
+      </ul>
+    </li>
+    <li><a href="#future-work">Future Work</a></li>
+    <li><a href="#team-members">Team Members</a></li>
+    <li><a href="#references">References</a></li>
   </ol>
 </details>
 
