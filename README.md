@@ -486,15 +486,12 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <!-- CONTACT -->
 ## Team Members
-[Gus Boothman](https://github.com/Gus1616)
-<br/>
-[Will O’Donohoe](https://github.com/21chubaka)
-<br/>
-[Cheng Zhang](https://github.com/20211342)
-<br/>
-[Xinhui Jiang](https://github.com/XinHuiUCD)
+[Gus Boothman](https://github.com/Gus1616)<br>
+[Cheng Zhang](https://github.com/20211342)<br>
+[Xinhui Jiang](https://github.com/XinHuiUCD)<br>
+[Will O’Donohoe](https://github.com/21chubaka)<br>
 
-[Original Project Link](https://github.com/XinHuiUCD/dublinBus)
+[Original Project Link](https://github.com/XinHuiUCD/dublinBus)<br>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
