@@ -487,6 +487,61 @@ is reasonably robust.
 </div>
 
 ### Data Analysis
+Once the Random Forest models for each direction of each route were created, the evaluation
+and validation scores of the models were compared. Below are the mean scores of all 252 models
+created for the application.
+
+<div>
+  <a href="https://github.com/21chubaka/Dublin_Bus_App">
+    <img src="/media/mean_model_scores.png">
+  </a>
+</div>
+
+The average cross-validated R Squared across all models was 0.5638. This is essentially the
+amount of variation that the models are able to account for using the features. Although higher
+R Squared is the goal, this is higher than other published works [1]. The similar results across
+training, test, and 3-fold cross-validation data sets does support a validated model without issues
+such as over-fitting. The average Mean Absolute Error (MAE) of the models when predicting
+actual bus arrival to a stop versus the planned arrival time is about 159 seconds, or 2.65 minutes.
+This is also within the team’s original goals. MAE was used for evaluation over Mean Absolute
+Percentage Error (MAPE) since the prediction is difference in arrival time, and zero as a prediction
+is possible. In addition to the average performance across all models, the below graphs display
+each model’s performance for R Squared, followed by MAE, when lining up the results from best
+to worst. There is a line displayed for each direction. Interestingly, Direction 1 typically achieved
+higher R Squared, but Direction 2 typically achieved lower MAE. Visibility into the range of model
+results is useful to drive future work in addition to the average across all.
+
+<div>
+  <a href="https://github.com/21chubaka/Dublin_Bus_App">
+    <img src="/media/cv_r2_scores.png">
+  </a>
+</div>
+
+<div>
+  <a href="https://github.com/21chubaka/Dublin_Bus_App">
+    <img src="/media/cv_r2_percentile_scores.png">
+  </a>
+</div>
+
+The table above is individual route-direction results for those at the 75th, 50th and 25th percentiles
+in R Squared performance. The inner quartile range for R Squared model performance is 0.46 to
+0.74 for Direction 1, and 0.41 to 0.68 for Direction 2.
+
+<div>
+  <a href="https://github.com/21chubaka/Dublin_Bus_App">
+    <img src="/media/cv_mae_scores.png">
+  </a>
+</div>
+
+<div>
+  <a href="https://github.com/21chubaka/Dublin_Bus_App">
+    <img src="/media/cv_mae_percentile_scores.png">
+  </a>
+</div>
+
+The table above is individual route-direction results for those at the 75th, 50th and 25th percentiles
+in MAE performance. The inner quartile range for MAE model performance is 120 to 210 seconds
+(2 to 3.5 minutes) for Direction 1, and 113 to 182 seconds for Direction 2.
 
 ### User Testing
 
@@ -531,6 +586,10 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## References
+[1] Candis Anderson Enxi Cui Ankhit Pandurangi, Clare Byrne and Gavin McArdle. Design
+and Development of an Application for Predicting Bus Travel Times using a Segmentation
+Approach, 2020.<br>
+
 [5] Henriette Eisfeld and Felix Kristallovich. The rise of dark mode: A qualitative study of an
 emerging user interface design trend, 2020.<br>
 
