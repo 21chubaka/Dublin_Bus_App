@@ -343,6 +343,12 @@ these APIs on the front end. AJAX and the Fetch API were used on the front end t
 and response that were made on the back end. Some setting up was done to solve the Cross-Origin problem.
 
 ### Deployment
+Since docker technology was used, this project was deployed on the container rather than directly
+on the UCD VM Server. This container also opens the port 80 and 443 for HTTP and HTTPS
+protocols. The SSH settings were set up on the container and the project source code was
+uploaded to the container through Github. Then tmux was used to hang up the project so that it
+could keep running even if logged out. In this way, the application is available to access through
+the url (http://ipa-011.ucd.ie)<i>url now not active</i>.
 
 ### Data Analysis & Data Management
 
