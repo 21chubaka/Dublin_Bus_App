@@ -465,6 +465,26 @@ images. SEO was our best metric which tested the page for features that are impo
 engines.
 
 ### Back End
+To test the performance and scalability of the back end, some basic load testing using locust was
+conducted. With 40 concurrent users making approximately 1 request per second, it was found
+that most of the endpoints in the back end application had a mean and median response time of
+less than 1 second after the implementation of suitable caching (see below). 
+
+<div>
+  <a href="https://github.com/21chubaka/Dublin_Bus_App">
+    <img src="/media/backend_req_resp_time.png">
+  </a>
+</div>
+
+More users were then tested for scalability. The result was that no request failure was received 
+even when there were 200 concurrent users (see below). It seems the performance of the back end 
+is reasonably robust.
+
+<div>
+  <a href="https://github.com/21chubaka/Dublin_Bus_App">
+    <img src="/media/request_test.png">
+  </a>
+</div>
 
 ### Data Analysis
 
