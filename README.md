@@ -348,9 +348,98 @@ on the UCD VM Server. This container also opens the port 80 and 443 for HTTP and
 protocols. The SSH settings were set up on the container and the project source code was
 uploaded to the container through Github. Then tmux was used to hang up the project so that it
 could keep running even if logged out. In this way, the application is available to access through
-the url (http://ipa-011.ucd.ie)<i>url now not active</i>.
+the url (http://ipa-011.ucd.ie) <i>url now not active</i>.
 
 ### Data Analysis & Data Management
+Historical bus data from 2018 which included information on vehicles, trips, and stop by stop data
+was provided - most importantly planned and actual arrival times. In addition, historical weather
+data from the Open Weather API was gathered, which matched the dates of the historical bus
+data given. The weather data consisted of hourly measurements of various weather categories.<br>
+
+A data quality plan was created and implemented. This included steps such as identifying rows
+that were suppressed or had no arrival times and dropping them. Also before models were trained
+the data was split (70/30) for training and test and shuffled.<br>
+
+Various features to aid with data analysis and possible features to be used for the models were
+created. Some included month as an integer from 1-12, day as an integer from 1-31, day of the
+week as an integer from 0-6, weekend as a binary 0 or 1 (1 being Saturday or Sunday), and rush
+hour as a binary (Excluding weekends: times between 8-9am and 4-6pm).<br>
+
+After analyzing the weather and bus data the most correlated features were chosen. The final
+features for the model were: month, day of the week, rush hour, hour, temperature, and wind
+speed.<br>
+- Month (month): int 1-12
+- Day of week (dayOfWeek): int 0-6 Monday=0
+- Rush hour (rushHour): int 0/1 8-9am and 4-6pm (Excludes weekends)
+- Hour (hour): int 0-23
+- Temperature (temp): float
+- Wind Speed (wind speed): float<br>
+
+<div>
+  <a href="https://github.com/21chubaka/Dublin_Bus_App">
+    <img src="/media/correlation_matrix.png">
+  </a>
+</div>
+
+Initially one route (39A) was chosen from the trip data to create models to predict the actual
+duration difference (in seconds) from the planned duration time of a trip to the actual duration
+time. In other words, if the trip took longer or shorter than planned. Three Linear Regression
+models were created: one for the entire route 39A, one for 39A Inbound (Direction 1), and one
+for 39A Outbound (Direction 2).<br>
+
+Similar models were conducted for the leave time data-set, which is stop data as opposed to
+complete trip data. For these models the arrival difference from stop to stop was predicted.
+Along with Linear Regression, Decision Tree and Random Forest models were created from the
+leave time data.<br>
+
+These models and Linear Regression models from the trip data were rather poor and needed
+improvement. None of these models had a cross-validated R2 score higher than 0.13 (Appendix
+B: Fig B.1).<br>
+
+The first step to improve the models was to combine the trip, leave time, and weather data-sets.
+The data-set of historical bus (trip and leave time) and weather data when combined was about
+117 million rows. The data was then split by route, first focusing on 39A.<br>
+
+We again started with Linear Regression models for the entire route 39A. At this time, we included
+Direction and Progress Number of the stop as features in these models. Progress Number (PROGRNUMBER) 
+is the order of the stops the route takes from first to last. Again, these models did not perform 
+any better (R2 = 0.13).<br>
+
+We then moved to a Decision Tree model with a depth of 3 for the entire route 39A. As we
+chose a depth of 3, we used Direction, Progress Number, and Month as our features. This model
+performed basically identically to previous models.<br>
+
+Finally, this approach was taken and used to create some Random Forest models. These models
+did improve from previous iterations, but only marginally to an R2 of 0.23. Further improvement
+was needed for the models.<br>
+
+The data was split by route and by route directions. The route direction data sets varied greatly
+in number of rows; the largest being over 2 million rows (Route 40 Direction 2) and the smallest
+being almost 200 rows (Route 41D Direction 1).<br>
+
+Random Forest models for the 39A Direction 1, and 39A Direction 2 were created. While noticeable 
+improvement was observed, it was attributable to over-fitting caused by the use of the Progress Number 
+feature.<br>
+
+After excluding the Progress Number as a feature, the over-fitting issues were solved as the results
+between training and testing were similar. Also, the best results for the models were observed,
+thus far. The Cross-Validated R2 was 0.32 for Direction 1.<br>
+
+<div>
+  <a href="https://github.com/21chubaka/Dublin_Bus_App">
+    <img src="/media/model_progression.png">
+  </a>
+</div>
+
+After some further feature testing and testing our models with various estimators, we concluded
+our models moving forward for the other routes would be a Random Forest model for each direction
+of each route with an n-estimator of 20 and a random state of 42. It was important to keep our
+estimators as low as possible without affecting the model’s performance, to support application
+performance.<br>
+
+As will be discussed in Testing & Evaluation, the 39A had some of our lower individual route-direction R2
+scores. When applying this model approach to other route-directions, there was often improved
+results.<br>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
