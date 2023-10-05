@@ -284,6 +284,17 @@ the front end, the back end, client and server communication, deployment of the 
 analysis and management, and some justifications for these approaches.
 
 ### Architecture & Tech Stack
+Vue JS acts as the front-end and Django acts as the back-end API. The stack is deployed within a
+Docker container on the UCD server. A MySQL RDS database was utilised to store static data
+like bus stop information and weather data, while the large amount of historical bus data is stored 
+on UCD’s high performance server where the data analytics was carried out with Jupyter notebooks.<br> 
+Below is an illustration of the architecture:
+
+<div>
+  <a href="https://github.com/21chubaka/Dublin_Bus_App">
+    <img src="/media/Architecture.png">
+  </a>
+</div>
 
 ### Front End
 
