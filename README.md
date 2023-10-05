@@ -544,6 +544,34 @@ in MAE performance. The inner quartile range for MAE model performance is 120 to
 (2 to 3.5 minutes) for Direction 1, and 113 to 182 seconds for Direction 2.
 
 ### User Testing
+Incorporating the voice of the customer through user testing was very important for our application. 
+User testing allowed the team to see what parts of the application worked or frustrated users, provided 
+an unbiased view of the application, and avoided any ’tunnel vision’ by the developers. Each team member asked 2
+to 3 people to review the application, answering the following questions:<br>
+
+- Did you view the application on mobile or PC?
+- How do you find aesthetics of the application? Is there anything you might change?
+- How did you find using the features? How would you improve the features?
+- Any additional comments?<br>
+
+Eleven people reviewed the application. The overall response was largely positive with responses
+highlighting the dark-mode, twitter page, and favourite features. As seen from the bar chart
+below, the ratings are very high for overall aesthetics. It was noted that PC ratings were higher than
+mobile, which most likely was due to the fact that the application was originally designed as a web application 
+and then optimised for mobile.
+
+<div>
+  <a href="https://github.com/21chubaka/Dublin_Bus_App">
+    <img src="/media/user_aesth_survey.png">
+  </a>
+</div>
+
+While the surveys were completely anonymous, the responses were obtained from colleagues, friends and
+family, so some bias may have impacted the results. However, constructive criticism was given. For
+example, one user noted that the journey planning involved too many ’clicks’ in order to submit a
+journey. The fact that the login option did not give any added functionality confused some users.
+This was to be expected as the favourite routes were originally restricted, but became unnecessary
+as this information was being stored in their local browsers.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
