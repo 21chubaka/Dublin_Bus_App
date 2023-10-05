@@ -81,7 +81,7 @@ Full Stack Software App Development Group Project
     </li>
     <li><a href="#technical-approach">Technical Approach</a>
       <ul>
-        <li><a href="#architecture-&-tech-stack">Architecture & Tech Stack</a></li>
+        <li><a href="#architecture--tech-stack">Architecture & Tech Stack</a></li>
         <li><a href="#front-end">Front End</a></li>
         <li><a href="#back-end">Back End</a></li>
         <li><a href="#client---server-communication">Client & Server Communication</a></li>
