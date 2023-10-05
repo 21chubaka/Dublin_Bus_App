@@ -297,7 +297,7 @@ Below is an illustration of the architecture:
 </div>
 
 ### Front End
-As a team, much deliberation was had over the technology to use for the front-end. Vanilla
+As a team, much deliberation was had over the technology to use for the front end. Vanilla
 JavaScript, HTML, and CSS would have been very capable of satisfying the project’s specifications
 and all team members were familiar with that technology. However, this project was seen as an opportunity 
 to learn, and the decision to use a JavaScript framework was made. There are many benefits to frameworks, such as
@@ -313,7 +313,7 @@ the separation of the code into components like the Map or Navbar component. Thi
 neater and less likely to cause code conflicts when merging. Another benefit to the framework is the 
 access to libraries and plug-ins. For example, Vue3-google maps is a plugin that makes it easier to 
 utilise the Google Maps API and the Vue date-time-picker, which is a ready made date and time selector plug-in. 
-Furthermore, Vue3 can be packaged with the given vue-cli version and combined with the back-end easily, 
+Furthermore, Vue3 can be packaged with the given vue-cli version and combined with the back end easily, 
 which makes the development process relatively independent.
 
 <div>
@@ -323,6 +323,18 @@ which makes the development process relatively independent.
 </div>
 
 ### Back End
+The decision on the technology for the back-end was more straightforward. From the start of
+the project it was agreed to use Python for the back end services because of familiarity compared
+to other programming languages. It was then debated which web framework to use between
+Django and Flask. Both frameworks are very popular in industry. Django is better suited to more
+complex projects due to it’s many ’out of the box’ features and libraries. For example, Django
+has a ready made administration panel built-in, which scales better than Flask. Django enforces
+best-practice software development due to it’s template structure [7]. Flask is less rigid and the
+team already had experience with Flask. Ultimately, Django was chosen with the aim to
+challenge ourselves and learn new technologies. The role of the back end includes connecting to
+the database and acting as an intermediate between the front end and the database, combining
+the front end and achieving the url redirect to the front end project and being deployed to the
+server.
 
 ### Client & Server Communication
 Passing data between the two frameworks (client and server), was acomplished by creating a
@@ -394,6 +406,8 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 ## References
 [5] Henriette Eisfeld and Felix Kristallovich. The rise of dark mode: A qualitative study of an
 emerging user interface design trend, 2020.<br>
+
+[7] Devndra Ghimire. Comparative study on python web frameworks: Flask and django. 2020.<br>
 
 [11] Maja Nowak. Vue vs react in 2022 - comparison of two most popular js frameworks.<br>
 
