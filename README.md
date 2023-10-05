@@ -448,6 +448,21 @@ Below is an overview of the testing carried out for the front end, back end, and
 the user review surveys.
 
 ### Front End
+Selenium web driver coupled with python’s unit test library was used to test the functionality and
+logic of the application. Selenium is an automated testing library that is used to validate web
+applications across different web browsers. Tests were written to assess the flow of the journey
+planner. The logic of the sign up and log in were also tested. For example, it was tested that
+if you already have an account the user could not sign up again. The appropriate responses to
+these implementations were also tested.<br>
+
+The chrome extension Google Lighthouse was also used to test the performance of the application.
+Lighthouse runs a series of tests on a particular web page, and then generates a report on how
+well the page performed. Failing tests were used as indicators on ways to improve the application.
+The web page performed reasonably well on most metrics. Performance is where the greatest
+improvement is needed. Lighthouse highlighted ways to improve this score, such as removing
+unused JavaScript code, removing render blocking resources and setting defined dimensions for
+images. SEO was our best metric which tested the page for features that are important to search
+engines.
 
 ### Back End
 
