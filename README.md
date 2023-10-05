@@ -629,7 +629,7 @@ emerging user interface design trend, 2020.<br>
 
 [11] Maja Nowak. Vue vs react in 2022 - comparison of two most popular js frameworks.<br>
 
-
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
