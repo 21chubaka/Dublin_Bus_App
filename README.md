@@ -297,6 +297,30 @@ Below is an illustration of the architecture:
 </div>
 
 ### Front End
+As a team, much deliberation was had over the technology to use for the front-end. Vanilla
+JavaScript, HTML, and CSS would have been very capable of satisfying the project’s specifications
+and all team members were familiar with that technology. However, this project was seen as an opportunity 
+to learn, and the decision to use a JavaScript framework was made. There are many benefits to frameworks, such as
+easier asynchronous updates of the Document Object Model (DOM) and seamless page loading.
+Drawbacks include that they can be overly complex for simple projects. Everything considered,
+we decided to choose between React JS and Vue JS. There are pros and cons to both frameworks.
+React is the most popular framework in industry. Vue uses HTML templates while React uses
+JSX, this gives some familiarity to Vue due to our experience with HTML [11]. Performance wise
+they are very similar. However, React is better suited to large scale web applications due to its
+larger ecosystem. Ultimately, Vue was settled on due to it’s lightweight nature and lower barrier
+to entry [11]. In particular, Vue version 3 was used, the latest version of Vue. Vue allowed for
+the separation of the code into components like the Map or Navbar component. This meant the code was 
+neater and less likely to cause code conflicts when merging. Another benefit to the framework is the 
+access to libraries and plug-ins. For example, Vue3-google maps is a plugin that makes it easier to 
+utilise the Google Maps API and the Vue date-time-picker, which is a ready made date and time selector plug-in. 
+Furthermore, Vue3 can be packaged with the given vue-cli version and combined with the back-end easily, 
+which makes the development process relatively independent.
+
+<div>
+  <a href="https://github.com/21chubaka/Dublin_Bus_App">
+    <img src="/media/vueComponets.PNG">
+  </a>
+</div>
 
 ### Back End
 
@@ -369,7 +393,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## References
 [5] Henriette Eisfeld and Felix Kristallovich. The rise of dark mode: A qualitative study of an
-emerging user interface design trend, 2020.
+emerging user interface design trend, 2020.<br>
+
+[11] Maja Nowak. Vue vs react in 2022 - comparison of two most popular js frameworks.<br>
 
 
 
