@@ -95,7 +95,7 @@ Below is a short demo of the application:
 
 <div align="center">
   <a href="https://github.com/21chubaka/Dublin_Bus_App">
-    <img src="/README_imgs/Journey_Planner.gif" alt="Journey_Planner">
+    <img src="/media/Journey_Planner.gif" alt="Journey_Planner">
   </a>
 </div>
   <h3>Make sure to click the marker icon after entering your address!<h3>
@@ -173,7 +173,7 @@ predicted travel time above the map.
 
 <div>
   <a href="https://github.com/21chubaka/Dublin_Bus_App">
-    <img src="/README_imgs/Journey_Planner.png">
+    <img src="/media/Journey_Planner.png">
   </a>
 </div>
 
@@ -184,7 +184,7 @@ specify their age or whether they have a leapcard.
 
 <div>
   <a href="https://github.com/21chubaka/Dublin_Bus_App">
-    <img src="/README_imgs/fare_calculation.png">
+    <img src="/media/fare_calculation.png">
   </a>
 </div>
 
@@ -193,7 +193,7 @@ The route information feature allows users to search for the bus routes they wan
 
 <div>
   <a href="https://github.com/21chubaka/Dublin_Bus_App">
-    <img src="/README_imgs/Route_Info.png">
+    <img src="/media/Route_Info.png">
   </a>
 </div>
 
@@ -202,7 +202,7 @@ The user can select a bus stop on the map and view the expected arrivals of buse
 
 <div>
   <a href="https://github.com/21chubaka/Dublin_Bus_App">
-    <img src="/README_imgs/RealtimeInfo.png">
+    <img src="/media/RealtimeInfo.png">
   </a>
 </div>
 
@@ -211,21 +211,21 @@ he weather feature allows users to view the current weather in Dublin, tomorrow'
 <b>Current Weather</b>
 <div>
     <a href="https://github.com/21chubaka/Dublin_Bus_App">
-      <img src="/README_imgs/current_weather.png">
+      <img src="/media/current_weather.png">
     </a>
 </div>
 
 <b>Tomorrow's Weather</b>
 <div>
     <a href="https://github.com/21chubaka/Dublin_Bus_App">
-      <img src="/README_imgs/tomorrow_weather.png">
+      <img src="/media/tomorrow_weather.png">
     </a>
 </div>
 
 <b>Future Weather</b>
 <div>
     <a href="https://github.com/21chubaka/Dublin_Bus_App">
-      <img src="/README_imgs/future_weather.png">
+      <img src="/media/future_weather.png">
     </a>
 </div>
 
@@ -235,7 +235,7 @@ view new information and alerts from Dublin Bus.
 
 <div>
   <a href="https://github.com/21chubaka/Dublin_Bus_App">
-    <img src="/README_imgs/Twitter.png">
+    <img src="/media/Twitter.png">
   </a>
 </div>
 
@@ -246,9 +246,9 @@ In addition, all functions are not affected if users do not login - there are no
 
 <div>
   <a href="https://github.com/21chubaka/Dublin_Bus_App">
-    <img src="/README_imgs/Register.png">
-    <img src="/README_imgs/Login.png">
-    <img src="/README_imgs/login_completed.png">
+    <img src="/media/Register.png">
+    <img src="/media/Login.png">
+    <img src="/media/login_completed.png">
   </a>
 </div>
 
@@ -259,7 +259,7 @@ to the user is that dark mode has been found to have certain protective effects 
 
 <div>
   <a href="https://github.com/21chubaka/Dublin_Bus_App">
-    <img src="/README_imgs/Dark_mode.png">
+    <img src="/media/Dark_mode.png">
   </a>
 </div>
 
@@ -270,9 +270,9 @@ can be viewed when users click on the button.
 
 <div>
   <a href="https://github.com/21chubaka/Dublin_Bus_App">
-    <img src="/README_imgs/mobile1.png" width="32%">
-    <img src="/README_imgs/mobile2.png" width="32%">
-    <img src="/README_imgs/mobile3.png" width="32%">
+    <img src="/media/mobile1.png" width="32%">
+    <img src="/media/mobile2.png" width="32%">
+    <img src="/media/mobile3.png" width="32%">
   </a>
 </div>
 
