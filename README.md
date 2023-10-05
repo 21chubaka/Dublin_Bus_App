@@ -575,6 +575,10 @@ as this information was being stored in their local browsers.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Future Work
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- CONTRIBUTING 
 ## Contributing
 
