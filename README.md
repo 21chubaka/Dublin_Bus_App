@@ -673,6 +673,112 @@ created for the application.
   </a>
 </div>
 
+<table>
+    <tr>
+        <th>Metrics</th>
+        <th>Training</th>
+        <th>Standard Deviation of Training</th>
+        <th>Test</th>
+        <th>Standard Deviation of Test</th>
+        <th>3-Fold CV</th>
+        <th>Standard Deviation of Cross-Validation</th>
+    </tr>
+    <tr>
+        <td>MAE</td>
+        <td>Linear Regression</td>
+        <td>DIRECTION<br>
+            PROGRNUMBER<br>
+            month<br>
+            dayOfWeek<br>
+            rushHour<br>
+            temp<br>
+            wind_speed</td>
+        <td>MAE<br>
+            MSE<br>
+            RMSE<br>
+            R2</td>
+        <td>271.62<br>
+            151247.44<br>
+            388.91<br>
+            0.1316</td>
+        <td>271.07<br>
+            150487.78<br>
+            387.93<br>
+            0.1321</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>MSE</td>
+        <td>Decision Tree<br>
+            3 Depth</td>
+        <td>DIRECTION<br>
+            PROGRNUMBER<br>
+            month</td>
+        <td>MAE<br>
+            MSE<br>
+            RMSE<br>
+            R2</td>
+        <td>268.92<br>
+            150688.92<br>
+            388.19<br>
+            0.1332</td>
+        <td>269.08<br>
+            151080.25<br>
+            388.69<br>
+            0.1323</td>
+        <td>268.99<br>
+            150827.17<br>
+            388.36<br>
+            0.1328</td>
+    </tr>
+    <tr>
+        <td>RMSE</td>
+        <td>Random Forest</td>
+        <td>month<br>
+            dayOfWeek<br>
+            rushHour<br>
+            temp<br>
+            wind_speed</td>
+        <td>MAE<br>
+            MSE<br>
+            RMSE<br>
+            R2</td>
+        <td>269.75<br>
+            132394.49<br>
+            363.86<br>
+            0.2386</td>
+        <td>270.95<br>
+            133524.20<br>
+            365.41<br>
+            0.2327</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>R2<br>
+            Direction 1</td>
+        <td>Random Forest</td>
+        <td>PROGRNUMBER<br>
+            month<br>
+            dayOfWeek<br>
+            rushHour<br>
+            temp<br>
+            wind_speed</td>
+        <td>MAE<br>
+            MSE<br>
+            RMSE<br>
+            R2</td>
+        <td>202.10<br>
+            83076.19<br>
+            288.23<br>
+            0.6169</td>
+        <td>279.51<br>
+            153237.52<br>
+            391.46<br>
+            0.2972</td>
+        <td></td>
+    </tr>
+</table>
+
 The average cross-validated R Squared across all models was 0.5638. This is essentially the
 amount of variation that the models are able to account for using the features. Although higher
 R Squared is the goal, this is higher than other published works [1]. The similar results across
