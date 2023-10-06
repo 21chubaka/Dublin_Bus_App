@@ -449,6 +449,54 @@ thus far. The Cross-Validated R2 was 0.32 for Direction 1.<br>
   </a>
 </div>
 
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Features</th>
+        <th>Metric</th>
+        <th>Training Data</th>
+        <th>Testing Data</th>
+        <th>Cross-Validation</th>
+    </tr>
+    <tr>
+        <td>MAE</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>MSE</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>RMSE</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>R2</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+    </tr>
+</table>
+
 After some further feature testing and testing our models with various estimators, we concluded
 our models moving forward for the other routes would be a Random Forest model for each direction
 of each route with an n-estimator of 20 and a random state of 42. It was important to keep our
