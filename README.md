@@ -273,7 +273,7 @@ In addition, all functions are not affected if users do not login - there are no
 ### Dark-Mode
 The main purpose of dark mode is to facilitate use of the application at night. An added benefit
 to the user is that dark mode has been found to have certain protective effects on people’s eyes
-[5].
+[2].
 
 <div>
   <a href="https://github.com/21chubaka/Dublin_Bus_App">
@@ -323,10 +323,10 @@ easier asynchronous updates of the Document Object Model (DOM) and seamless page
 Drawbacks include that they can be overly complex for simple projects. Everything considered,
 we decided to choose between React JS and Vue JS. There are pros and cons to both frameworks.
 React is the most popular framework in industry. Vue uses HTML templates while React uses
-JSX, this gives some familiarity to Vue due to our experience with HTML [11]. Performance wise
+JSX, this gives some familiarity to Vue due to our experience with HTML [4]. Performance wise
 they are very similar. However, React is better suited to large scale web applications due to its
 larger ecosystem. Ultimately, Vue was settled on due to it’s lightweight nature and lower barrier
-to entry [11]. In particular, Vue version 3 was used, the latest version of Vue. Vue allowed for
+to entry [4]. In particular, Vue version 3 was used, the latest version of Vue. Vue allowed for
 the separation of the code into components like the Map or Navbar component. This meant the code was 
 neater and less likely to cause code conflicts when merging. Another benefit to the framework is the 
 access to libraries and plug-ins. For example, Vue3-google maps is a plugin that makes it easier to 
@@ -347,7 +347,7 @@ to other programming languages. It was then debated which web framework to use b
 Django and Flask. Both frameworks are very popular in industry. Django is better suited to more
 complex projects due to it’s many ’out of the box’ features and libraries. For example, Django
 has a ready made administration panel built-in, which scales better than Flask. Django enforces
-best-practice software development due to it’s template structure [7]. Flask is less rigid and the
+best-practice software development due to it’s template structure [3]. Flask is less rigid and the
 team already had experience with Flask. Ultimately, Django was chosen with the aim to
 challenge ourselves and learn new technologies. The role of the back end includes connecting to
 the database and acting as an intermediate between the front end and the database, combining
@@ -948,12 +948,12 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 and Development of an Application for Predicting Bus Travel Times using a Segmentation
 Approach, 2020.<br>
 
-[5] Henriette Eisfeld and Felix Kristallovich. The rise of dark mode: A qualitative study of an
+[2] Henriette Eisfeld and Felix Kristallovich. The rise of dark mode: A qualitative study of an
 emerging user interface design trend, 2020.<br>
 
-[7] Devndra Ghimire. Comparative study on python web frameworks: Flask and django. 2020.<br>
+[3] Devndra Ghimire. Comparative study on python web frameworks: Flask and django. 2020.<br>
 
-[11] Maja Nowak. Vue vs react in 2022 - comparison of two most popular js frameworks.<br>
+[4] Maja Nowak. Vue vs react in 2022 - comparison of two most popular js frameworks.<br>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
