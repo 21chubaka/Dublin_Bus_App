@@ -667,12 +667,6 @@ Once the Random Forest models for each direction of each route were created, the
 and validation scores of the models were compared. Below are the mean scores of all 252 models
 created for the application.
 
-<div>
-  <a href="https://github.com/21chubaka/Dublin_Bus_App">
-    <img src="/media/mean_model_scores.png">
-  </a>
-</div>
-
 <table>
     <tr>
         <th>Metrics</th>
