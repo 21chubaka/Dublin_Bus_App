@@ -735,12 +735,6 @@ results is useful to drive future work in addition to the average across all.
   </a>
 </div>
 
-<div>
-  <a href="https://github.com/21chubaka/Dublin_Bus_App">
-    <img src="/media/cv_r2_percentile_scores.png">
-  </a>
-</div>
-
 <table>
     <tr>
         <th></th>
