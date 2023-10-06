@@ -443,12 +443,6 @@ After excluding the Progress Number as a feature, the over-fitting issues were s
 between training and testing were similar. Also, the best results for the models were observed,
 thus far. The Cross-Validated R2 was 0.32 for Direction 1.<br>
 
-<div>
-  <a href="https://github.com/21chubaka/Dublin_Bus_App">
-    <img src="/media/model_progression.png">
-  </a>
-</div>
-
 <table>
     <tr>
         <th>Name</th>
