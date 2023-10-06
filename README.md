@@ -765,39 +765,39 @@ results is useful to drive future work in addition to the average across all.
     </tr>
     <tr>
         <td>MAE</td>
-        <td>154.41</td>
-        <td>59.66</td>
-        <td>158.36</td>
-        <td>58.98</td>
-        <td>158.73</td>
-        <td>58.97</td>
+        <td>123.31</td>
+        <td>90.00</td>
+        <td>86.75</td>
+        <td>163.71</td>
+        <td>200.75</td>
+        <td>105.76</td>
     </tr>
     <tr>
         <td>MSE</td>
-        <td>55801.17</td>
-        <td>37645.53</td>
-        <td>58282.44</td>
-        <td>37714.81</td>
-        <td>58600.68</td>
-        <td>37971.77</td>
+        <td>35678.03</td>
+        <td>19384.35</td>
+        <td>16861.15</td>
+        <td>65705.36</td>
+        <td>73966.13</td>
+        <td>22550.50</td>
     </tr>
     <tr>
         <td>RMSE</td>
-        <td>223.74</td>
-        <td>75.91</td>
-        <td>229.54</td>
-        <td>74.94</td>
-        <td>230.28</td>
-        <td>74.73</td>
+        <td>188.89</td>
+        <td>139.21</td>
+        <td>129.85</td>
+        <td>256.32</td>
+        <td>271.97</td>
+        <td>150.17</td>
     </tr>
     <tr>
         <td>R2</td>
-        <td>0.5887</td>
-        <td>0.1716</td>
-        <td>0.5636</td>
-        <td>0.1745</td>
-        <td>0.5638</td>
-        <td>0.1731</td>
+        <td>0.7361</td>
+        <td>0.6768</td>
+        <td>0.5700</td>
+        <td>0.5406</td>
+        <td>0.4578</td>
+        <td>0.4056</td>
     </tr>
 </table>
 
