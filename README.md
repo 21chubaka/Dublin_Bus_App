@@ -694,27 +694,12 @@ created for the application.
     </tr>
     <tr>
         <td>MSE</td>
-        <td>Decision Tree<br>
-            3 Depth</td>
-        <td>DIRECTION<br>
-            PROGRNUMBER<br>
-            month</td>
-        <td>MAE<br>
-            MSE<br>
-            RMSE<br>
-            R2</td>
-        <td>268.92<br>
-            150688.92<br>
-            388.19<br>
-            0.1332</td>
-        <td>269.08<br>
-            151080.25<br>
-            388.69<br>
-            0.1323</td>
-        <td>268.99<br>
-            150827.17<br>
-            388.36<br>
-            0.1328</td>
+        <td>55801.17</td>
+        <td>37645.53</td>
+        <td>58282.44</td>
+        <td>37714.81</td>
+        <td>58600.68</td>
+        <td>37971.77</td>
     </tr>
     <tr>
         <td>RMSE</td>
