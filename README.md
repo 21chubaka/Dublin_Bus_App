@@ -462,7 +462,13 @@ thus far. The Cross-Validated R2 was 0.32 for Direction 1.<br>
     <tr>
         <td>All 39A</td>
         <td>Linear Regression</td>
-        <td>0</td>
+        <td>DIRECTION<br>
+            PROGRNUMBER<br>
+            month<br>
+            dayOfWeek<br>
+            rushHour<br>
+            temp<br>
+            wind_speed</td>
         <td>0</td>
         <td>0</td>
         <td>0</td>
@@ -472,7 +478,9 @@ thus far. The Cross-Validated R2 was 0.32 for Direction 1.<br>
         <td>All 39A</td>
         <td>Decision Tree<br>
             3 Depth</td>
-        <td>0</td>
+        <td>DIRECTION<br>
+            PROGRNUMBER<br>
+            month</td>
         <td>0</td>
         <td>0</td>
         <td>0</td>
@@ -481,38 +489,60 @@ thus far. The Cross-Validated R2 was 0.32 for Direction 1.<br>
     <tr>
         <td>All 39A</td>
         <td>Random Forest</td>
-        <td>0</td>
+        <td>month<br>
+            dayOfWeek<br>
+            rushHour<br>
+            temp<br>
+            wind_speed</td>
         <td>0</td>
         <td>0</td>
         <td>0</td>
         <td>0</td>
     </tr>
     <tr>
-        <td>39A Direction 1</td>
+        <td>39A<br>
+            Direction 1</td>
         <td>Random Forest</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-    </tr>
-    <tr>
-        <td>39A Direction 1</td>
-        <td>Random Forest<br>
-            n-estimators=20<br>
-            random state=42</td>
-        <td>0</td>
+        <td>PROGRNUMBER<br>
+            month<br>
+            dayOfWeek<br>
+            rushHour<br>
+            temp<br>
+            wind_speed</td>
         <td>0</td>
         <td>0</td>
         <td>0</td>
         <td>0</td>
     </tr>
     <tr>
-        <td>39A Direction 2</td>
+        <td>39A<br>
+            Direction 1</td>
         <td>Random Forest<br>
             n-estimators=20<br>
             random state=42</td>
+        <td>month<br>
+            dayOfWeek<br>
+            rushHour<br>
+            hour<br>
+            temp<br>
+            wind_speed</td>
         <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>39A<br>
+            Direction 2</td>
+        <td>Random Forest<br>
+            n-estimators=20<br>
+            random state=42</td>
+        <td>month<br>
+            dayOfWeek<br>
+            rushHour<br>
+            hour<br>
+            temp<br>
+            wind_speed</td>
         <td>0</td>
         <td>0</td>
         <td>0</td>
