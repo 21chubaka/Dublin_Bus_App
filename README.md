@@ -811,6 +811,66 @@ in R Squared performance. The inner quartile range for R Squared model performan
   </a>
 </div>
 
+<table>
+    <tr>
+        <th></th>
+        <th colspan="2">75th Percentile</th>
+        <th colspan="2">50th Percentile</th>
+        <th colspan="2">25th Percentile</th>
+    </tr>
+    <tr>
+        <th>Metrics</th>
+        <th>Direction 1<br>
+            67</th>
+        <th>Direction 2<br>
+            83A</th>
+        <th>Direction 1<br>
+            150</th>
+        <th>Direction 2<br>
+            220</th>
+        <th>Direction 1<br>
+            65</th>
+        <th>Direction 2<br>
+            84A</th>
+    </tr>
+    <tr>
+        <td>MAE</td>
+        <td>209.03</td>
+        <td>181.66</td>
+        <td>158.69</td>
+        <td>147.55</td>
+        <td>120.63</td>
+        <td>112.76</td>
+    </tr>
+    <tr>
+        <td>MSE</td>
+        <td>81882.91</td>
+        <td>68149.69</td>
+        <td>52545.29</td>
+        <td>49087.47</td>
+        <td>37670.81</td>
+        <td>27488.96</td>
+    </tr>
+    <tr>
+        <td>RMSE</td>
+        <td>286.15</td>
+        <td>261.05</td>
+        <td>229.23</td>
+        <td>221.56</td>
+        <td>194.09</td>
+        <td>165.79</td>
+    </tr>
+    <tr>
+        <td>R2</td>
+        <td>0.5149</td>
+        <td>0.5918</td>
+        <td>0.4774</td>
+        <td>0.8047</td>
+        <td>0.7528</td>
+        <td>0.7769</td>
+    </tr>
+</table>
+
 The table above is individual route-direction results for those at the 75th, 50th and 25th percentiles
 in MAE performance. The inner quartile range for MAE model performance is 120 to 210 seconds
 (2 to 3.5 minutes) for Direction 1, and 113 to 182 seconds for Direction 2.
