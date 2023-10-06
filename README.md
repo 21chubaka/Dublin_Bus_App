@@ -750,12 +750,18 @@ results is useful to drive future work in addition to the average across all.
     </tr>
     <tr>
         <th>Metrics</th>
-        <th>Training</th>
-        <th>Standard Deviation of Training</th>
-        <th>Test</th>
-        <th>Standard Deviation of Test</th>
-        <th>3-Fold CV</th>
-        <th>Standard Deviation of Cross-Validation</th>
+        <th>Direction 1<br>
+            31A</th>
+        <th>Direction 2<br>
+            104</th>
+        <th>Direction 1<br>
+            33B</th>
+        <th>Direction 2<br>
+            70</th>
+        <th>Direction 1<br>
+            151</th>
+        <th>Direction 2<br>
+            120</th>
     </tr>
     <tr>
         <td>MAE</td>
