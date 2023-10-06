@@ -805,12 +805,6 @@ in R Squared performance. The inner quartile range for R Squared model performan
   </a>
 </div>
 
-<div>
-  <a href="https://github.com/21chubaka/Dublin_Bus_App">
-    <img src="/media/cv_mae_percentile_scores.png">
-  </a>
-</div>
-
 <table>
     <tr>
         <th></th>
