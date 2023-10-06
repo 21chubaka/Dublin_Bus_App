@@ -685,27 +685,12 @@ created for the application.
     </tr>
     <tr>
         <td>MAE</td>
-        <td>Linear Regression</td>
-        <td>DIRECTION<br>
-            PROGRNUMBER<br>
-            month<br>
-            dayOfWeek<br>
-            rushHour<br>
-            temp<br>
-            wind_speed</td>
-        <td>MAE<br>
-            MSE<br>
-            RMSE<br>
-            R2</td>
-        <td>271.62<br>
-            151247.44<br>
-            388.91<br>
-            0.1316</td>
-        <td>271.07<br>
-            150487.78<br>
-            387.93<br>
-            0.1321</td>
-        <td></td>
+        <td>154.41</td>
+        <td>59.66</td>
+        <td>158.36</td>
+        <td>58.98</td>
+        <td>158.73</td>
+        <td>58.97</td>
     </tr>
     <tr>
         <td>MSE</td>
@@ -754,8 +739,7 @@ created for the application.
         <td></td>
     </tr>
     <tr>
-        <td>R2<br>
-            Direction 1</td>
+        <td>R2</td>
         <td>Random Forest</td>
         <td>PROGRNUMBER<br>
             month<br>
