@@ -703,48 +703,21 @@ created for the application.
     </tr>
     <tr>
         <td>RMSE</td>
-        <td>Random Forest</td>
-        <td>month<br>
-            dayOfWeek<br>
-            rushHour<br>
-            temp<br>
-            wind_speed</td>
-        <td>MAE<br>
-            MSE<br>
-            RMSE<br>
-            R2</td>
-        <td>269.75<br>
-            132394.49<br>
-            363.86<br>
-            0.2386</td>
-        <td>270.95<br>
-            133524.20<br>
-            365.41<br>
-            0.2327</td>
-        <td></td>
+        <td>223.74</td>
+        <td>75.91</td>
+        <td>229.54</td>
+        <td>74.94</td>
+        <td>230.28</td>
+        <td>74.73</td>
     </tr>
     <tr>
         <td>R2</td>
-        <td>Random Forest</td>
-        <td>PROGRNUMBER<br>
-            month<br>
-            dayOfWeek<br>
-            rushHour<br>
-            temp<br>
-            wind_speed</td>
-        <td>MAE<br>
-            MSE<br>
-            RMSE<br>
-            R2</td>
-        <td>202.10<br>
-            83076.19<br>
-            288.23<br>
-            0.6169</td>
-        <td>279.51<br>
-            153237.52<br>
-            391.46<br>
-            0.2972</td>
-        <td></td>
+        <td>0.5887</td>
+        <td>0.1716</td>
+        <td>0.5636</td>
+        <td>0.1745</td>
+        <td>0.5638</td>
+        <td>0.1731</td>
     </tr>
 </table>
 
