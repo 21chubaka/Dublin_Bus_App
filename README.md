@@ -473,7 +473,10 @@ thus far. The Cross-Validated R2 was 0.32 for Direction 1.<br>
             MSE<br>
             RMSE<br>
             R2</td>
-        <td>0</td>
+        <td>271.62<br>
+            151247.44<br>
+            388.91<br>
+            0.1316</td>
         <td>0</td>
         <td>0</td>
     </tr>
@@ -488,7 +491,10 @@ thus far. The Cross-Validated R2 was 0.32 for Direction 1.<br>
             MSE<br>
             RMSE<br>
             R2</td>
-        <td>0</td>
+        <td>268.92<br>
+            150688.92<br>
+            388.19<br>
+            0.1332</td>
         <td>0</td>
         <td>0</td>
     </tr>
@@ -504,7 +510,10 @@ thus far. The Cross-Validated R2 was 0.32 for Direction 1.<br>
             MSE<br>
             RMSE<br>
             R2</td>
-        <td>0</td>
+        <td>269.75<br>
+            132394.49<br>
+            363.86<br>
+            0.2386</td>
         <td>0</td>
         <td>0</td>
     </tr>
@@ -522,7 +531,10 @@ thus far. The Cross-Validated R2 was 0.32 for Direction 1.<br>
             MSE<br>
             RMSE<br>
             R2</td>
-        <td>0</td>
+        <td>202.10<br>
+            83076.19<br>
+            288.23<br>
+            0.6169</td>
         <td>0</td>
         <td>0</td>
     </tr>
@@ -542,7 +554,10 @@ thus far. The Cross-Validated R2 was 0.32 for Direction 1.<br>
             MSE<br>
             RMSE<br>
             R2</td>
-        <td>0</td>
+        <td>284.90<br>
+            144596.97<br>
+            380.26<br>
+            0.3346</td>
         <td>0</td>
         <td>0</td>
     </tr>
@@ -562,7 +577,10 @@ thus far. The Cross-Validated R2 was 0.32 for Direction 1.<br>
             MSE<br>
             RMSE<br>
             R2</td>
-        <td>0</td>
+        <td>233.65<br>
+            99645.56<br>
+            315.67<br>
+            0.2704</td>
         <td>0</td>
         <td>0</td>
     </tr>
