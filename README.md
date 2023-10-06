@@ -460,7 +460,7 @@ thus far. The Cross-Validated R2 was 0.32 for Direction 1.<br>
         <th>Cross-Validation</th>
     </tr>
     <tr>
-        <td>MAE</td>
+        <td>All 39A</td>
         <td>0</td>
         <td>0</td>
         <td>0</td>
@@ -469,7 +469,7 @@ thus far. The Cross-Validated R2 was 0.32 for Direction 1.<br>
         <td>0</td>
     </tr>
     <tr>
-        <td>MSE</td>
+        <td>All 39A</td>
         <td>0</td>
         <td>0</td>
         <td>0</td>
@@ -478,7 +478,7 @@ thus far. The Cross-Validated R2 was 0.32 for Direction 1.<br>
         <td>0</td>
     </tr>
     <tr>
-        <td>RMSE</td>
+        <td>All 39A</td>
         <td>0</td>
         <td>0</td>
         <td>0</td>
@@ -487,7 +487,25 @@ thus far. The Cross-Validated R2 was 0.32 for Direction 1.<br>
         <td>0</td>
     </tr>
     <tr>
-        <td>R2</td>
+        <td>39A Direction 1</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>39A Direction 1</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>39A Direction 2</td>
         <td>0</td>
         <td>0</td>
         <td>0</td>
