@@ -741,6 +741,60 @@ results is useful to drive future work in addition to the average across all.
   </a>
 </div>
 
+<table>
+    <tr>
+        <th></th>
+        <th colspan="2">75th Percentile</th>
+        <th colspan="2">50th Percentile</th>
+        <th colspan="2">25th Percentile</th>
+    </tr>
+    <tr>
+        <th>Metrics</th>
+        <th>Training</th>
+        <th>Standard Deviation of Training</th>
+        <th>Test</th>
+        <th>Standard Deviation of Test</th>
+        <th>3-Fold CV</th>
+        <th>Standard Deviation of Cross-Validation</th>
+    </tr>
+    <tr>
+        <td>MAE</td>
+        <td>154.41</td>
+        <td>59.66</td>
+        <td>158.36</td>
+        <td>58.98</td>
+        <td>158.73</td>
+        <td>58.97</td>
+    </tr>
+    <tr>
+        <td>MSE</td>
+        <td>55801.17</td>
+        <td>37645.53</td>
+        <td>58282.44</td>
+        <td>37714.81</td>
+        <td>58600.68</td>
+        <td>37971.77</td>
+    </tr>
+    <tr>
+        <td>RMSE</td>
+        <td>223.74</td>
+        <td>75.91</td>
+        <td>229.54</td>
+        <td>74.94</td>
+        <td>230.28</td>
+        <td>74.73</td>
+    </tr>
+    <tr>
+        <td>R2</td>
+        <td>0.5887</td>
+        <td>0.1716</td>
+        <td>0.5636</td>
+        <td>0.1745</td>
+        <td>0.5638</td>
+        <td>0.1731</td>
+    </tr>
+</table>
+
 The table above is individual route-direction results for those at the 75th, 50th and 25th percentiles
 in R Squared performance. The inner quartile range for R Squared model performance is 0.46 to
 0.74 for Direction 1, and 0.41 to 0.68 for Direction 2.
