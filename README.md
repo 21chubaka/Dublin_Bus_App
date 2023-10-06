@@ -469,7 +469,10 @@ thus far. The Cross-Validated R2 was 0.32 for Direction 1.<br>
             rushHour<br>
             temp<br>
             wind_speed</td>
-        <td>0</td>
+        <td>MAE<br>
+            MSE<br>
+            RMSE<br>
+            R2</td>
         <td>0</td>
         <td>0</td>
         <td>0</td>
@@ -481,7 +484,10 @@ thus far. The Cross-Validated R2 was 0.32 for Direction 1.<br>
         <td>DIRECTION<br>
             PROGRNUMBER<br>
             month</td>
-        <td>0</td>
+        <td>MAE<br>
+            MSE<br>
+            RMSE<br>
+            R2</td>
         <td>0</td>
         <td>0</td>
         <td>0</td>
@@ -494,7 +500,10 @@ thus far. The Cross-Validated R2 was 0.32 for Direction 1.<br>
             rushHour<br>
             temp<br>
             wind_speed</td>
-        <td>0</td>
+        <td>MAE<br>
+            MSE<br>
+            RMSE<br>
+            R2</td>
         <td>0</td>
         <td>0</td>
         <td>0</td>
@@ -509,7 +518,10 @@ thus far. The Cross-Validated R2 was 0.32 for Direction 1.<br>
             rushHour<br>
             temp<br>
             wind_speed</td>
-        <td>0</td>
+        <td>MAE<br>
+            MSE<br>
+            RMSE<br>
+            R2</td>
         <td>0</td>
         <td>0</td>
         <td>0</td>
@@ -526,7 +538,10 @@ thus far. The Cross-Validated R2 was 0.32 for Direction 1.<br>
             hour<br>
             temp<br>
             wind_speed</td>
-        <td>0</td>
+        <td>MAE<br>
+            MSE<br>
+            RMSE<br>
+            R2</td>
         <td>0</td>
         <td>0</td>
         <td>0</td>
@@ -543,7 +558,10 @@ thus far. The Cross-Validated R2 was 0.32 for Direction 1.<br>
             hour<br>
             temp<br>
             wind_speed</td>
-        <td>0</td>
+        <td>MAE<br>
+            MSE<br>
+            RMSE<br>
+            R2</td>
         <td>0</td>
         <td>0</td>
         <td>0</td>
