@@ -902,6 +902,13 @@ as this information was being stored in their local browsers.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Future Work
+- Integration with Dublin Bikes & Luas
+- Encryption
+- Native app
+- New models for lower performing routes
+- Continued Data Collection
+- New Data Sources Evaluated
+- More user testing
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
